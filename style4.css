@@ -44,8 +44,8 @@
 .myDiv:target{
 
 display:block !important;
-    margin-left:-355px;
-    margin-top:20px;
+    margin-left:-1005px;
+    margin-top:40px;
 
 }
 .star img{
@@ -66,14 +66,13 @@ display:block !important;
 }
 #star3 {
     width:200px;
-    margin-left:800px;
-    margin-top:-200px;
+    margin-left:900px;
+    margin-top:320
+    margin
 }
 #star4 {
     width:200px;
-    margin-left:300px;
-    margin-top:200px;
-}
+    margin-left:100px;}
 
 #treenav a{
     letter-spacing: 1px;
