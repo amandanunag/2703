@@ -95,7 +95,7 @@ background-color:#701010;
     padding-bottom: 30px;
     text-align: justify;
     font-family:"Open Sans";
-    font-size:14px;
+    font-size:17px;
 }
 
 .nl {
@@ -111,3 +111,18 @@ background-color:#701010;
     letter-spacing:1px;
 }
 
+#mh1 {
+    font-size:30px;
+    letter-spacing:2px;
+    text-align: center;
+}
+
+#mum {
+    padding-top:50px;
+    padding-bottom:400px;
+}
+
+#ate {
+    padding-top:50px;
+    padding-bottom:400px;
+}
