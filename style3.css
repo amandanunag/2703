@@ -1,0 +1,113 @@
+#mssgs {
+    margin: 0px auto;
+    margin-top: -140px;
+    border-radius: 15px;
+    border: 3px solid #000000;
+    background: #eeeeee;
+    padding: 20px;
+    width: 800px;
+    height: 540px;
+    margin-bottom: 110px;
+    box-shadow: 15px 15px;
+}
+
+#mh {
+    width: 794px;
+    height: 50px;
+    border-bottom: 3px solid #000000;
+    margin-left: -20px;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 28px;
+    letter-spacing: 1px;
+    text-align: right;
+    padding-right: 50px;
+}
+
+#circle1 {
+    margin-left: 20px;
+}
+
+.circle {
+    width: 23px;
+    height: 23px;
+    border-radius: 50%;
+    background-color: #000000;
+    margin-top: 7px;
+    float: left;
+    margin-left: 5px;
+
+
+}
+
+#sidenav {
+    margin-left:-20px;
+}
+
+
+#sidenav {
+    background-color: #eeeeee;
+    overflow-y: scroll;
+    border-right: 5px #000000 solid;
+    width:200px;
+    height:465px;
+}
+
+#sidenav a{
+
+        color: #701010;
+    font-family:"Open Sans", sans-serif;
+    text-align:center;
+    padding-top:10px;
+    
+}
+
+.ml {
+    padding-top:20px;
+    width: 190px;
+    height: 60px;
+    border-bottom: 2px #eeeeee solid;
+        text-transform: uppercase;
+
+}
+.ml:hover{
+background-color:#701010;
+}
+
+#sidenav a:hover{
+    color:#eeeeee;
+}
+}
+.force-overflow1 {
+    min-height: 450px;
+}
+
+.scrollbar2 {
+    width: 590px;
+    height: 464px;
+    background-color: #eeeeee;
+    margin-left:24.5%;
+    overflow-y: scroll;
+    margin-bottom: 25px;
+    margin-top:-465px;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right:30px;
+    padding-bottom: 30px;
+    text-align: justify;
+    font-family:"Open Sans";
+    font-size:14px;
+}
+
+.nl {
+    margin-top:20px;
+     text-align:center;
+}
+
+.nl a{
+    color:#701010;
+    text-transform: lowercase;
+    text-align:center;
+    font-size:12px;
+    letter-spacing:1px;
+}
+

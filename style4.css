@@ -1,0 +1,81 @@
+.tree, .tree:before, .tree:after{
+    height: 0;
+    position: absolute;
+    width: 0;
+}
+.tree {
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 20px solid green;
+    left: 680px;
+    top: 250px;
+}
+.tree:before {
+    content:'';
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    border-bottom: 40px solid green;
+    left: -40px;
+    top: 10px;
+}
+.tree:after {
+    content:'';
+    border-left: 60px solid transparent;
+    border-right: 60px solid transparent;
+    border-bottom: 60px solid green;
+    left: -60px;
+    top: 30px;
+}
+
+.trunk {
+    border-left: 13px solid brown;
+    height:40px;
+    margin-left:695px;
+    width:30px;
+    margin-top:130px;
+}
+
+.row2{
+    text-align:center;
+    padding-left: 20px;
+    
+}
+
+.myDiv:target{
+
+display:block !important;
+    margin-left:-355px;
+    margin-top:20px;
+
+}
+.star img{
+    width:100px;
+    height:auto;
+}
+
+#star1 {
+    width:200px;
+    margin-left:200px;
+    margin-top:-100px;
+}
+
+#star2 {
+    width:200px;
+    margin-left:400px;
+    margin-top:-300px;
+}
+#star3 {
+    width:200px;
+    margin-left:800px;
+    margin-top:-200px;
+}
+#star4 {
+    width:200px;
+    margin-left:300px;
+    margin-top:200px;
+}
+
+#treenav a{
+    letter-spacing: 1px;
+    word-spacing: 2px;
+}
