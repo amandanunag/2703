@@ -232,3 +232,24 @@
 #galnav1 {
     margin-left: 590px;
 }
+
+#galnav2 {
+    margin-left: 530px;
+}
+
+.end{
+        background-image: url("bg2.png");
+    height: 100%;
+    width: 100%;
+    padding-top: 150px;
+}
+.block {
+    margin: 100px auto;
+    padding:20px;
+    width:300px;
+    text-align: center;
+    font-family: "Open Source Code", monospace;
+    background-color: #ffffff;
+    margin-bottom:20px;
+}
+

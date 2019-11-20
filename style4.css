@@ -44,9 +44,26 @@
 .myDiv:target{
 
 display:block !important;
-    margin-left:-1005px;
+    float:left;
+    margin-left:-275px;
     margin-top:40px;
+    text-align: center;
 
+}
+
+.myDisplay{
+    font-family:"Source Code Pro", monospace;
+    font-size: 14px;
+}
+
+#hh {
+    background-color:#701010;
+    color: #ffffff;
+    letter-spacing: 4px;
+    padding:5px;
+}
+.myDisplay ul{
+    
 }
 .star img{
     width:100px;
