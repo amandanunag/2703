@@ -259,19 +259,19 @@ hr {
     margin-right:11px;
 }
 #mainlink:hover {border:solid 2px #FFF434;}
-.navhome, .navabout, .navmsg {
+.navhome, .navabout, .navmsg, .navlinks {
     background-position:center;
     background-size:cover;
     background-repeat:no-repeat;
 }
-.navhome {background-image:url('label1.png');}
-.navabout {background-image:url('label2.png');}
-.navmsg {background-image:url('label3.png');}
+.navabout {background-image:url('label1.png');}
+.navmsg {background-image:url('label2.png');}
+.navlinks {background-image:url('label3.png');}
 
 
-.navhome:hover {background-image:url('hover1.png');}
-.navabout:hover {background-image:url('hover2.png');}
-.navmsg:hover {background-image:url('hover3.png');}
+.navabout:hover {background-image:url('hover1.png');}
+.navmsg:hover {background-image:url('hover2.png');}
+.navlinks:hover {background-image:url('hover3.png');}
 
 
 
@@ -528,9 +528,9 @@ hr {
     
     
     <div id="mainnavcont">
-        <a href="javaScript:void(0);"><div id="mainlink" class="navhome"></div></a>
         <a href="javaScript:void(0);"><div id="mainlink" class="navabout"></div></a>
         <a href="javaScript:void(0);"><div id="mainlink" class="navmsg"></div></a>
+        <a href="javaScript:void(0);"><div id="mainlink" class="navlinks"></div></a>
     </div>
     <script>
     $(document).ready(function() {
@@ -628,6 +628,9 @@ hr {
         });
         $(".navmsg").click(function() {
             msgselected();
+        });
+            $(".navlinks").click(function() {
+            linksselected();
         });
     </script>
 </body>
